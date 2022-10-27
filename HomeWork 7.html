@@ -19,13 +19,13 @@
 
     <span>Язык интерфейса</span>
     <select name="hl">
-         <option value="lang_ru"> Russian</option>
+        <option value="lang_ru"> Russian</option>
         <option value="lang_en" >English</option>
         <option value="lang_be" selected>Belarusian</option>
     </select>
     <br/> 
     <span>Количество результатов на странице</span>
-    <input type="text" name="q" />
+    <input type="number" min="1" max="100" value="5" name="num" />
     <br/>
     <input type="submit" value=" Search!!!"/>
     </form>
